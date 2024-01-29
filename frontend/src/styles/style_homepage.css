@@ -1,0 +1,200 @@
+.vectors{
+    mix-blend-mode: difference;
+    position: absolute;
+}
+.vectors_vec1{
+    position: absolute;
+    top: 0;
+    left: -15rem;
+    width: 100rem;
+    height: 100vh;
+}
+
+.vectors_vec2{
+    position: absolute;
+    mix-blend-mode: difference;
+    left:5rem;
+    height: 35rem;
+    
+}
+
+.outercontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 38rem;
+    background-blend-mode: difference;
+}
+
+.innercontainer{
+    width: 90%;
+    flex-shrink: 0;
+    border-radius: 1.5625rem;
+    background: #3ed09be6;
+    
+    display: flex;
+    flex-direction:row; 
+    padding: 1rem;
+    align-items: center;
+}
+
+.navbar-container{
+    height: 7.5rem;
+}
+
+.Lefthome{
+    display: flex;
+    width:55%;
+}
+
+.img-container{
+    width: 53rem;
+    height: 38rem;
+    flex-shrink: 0;
+    display: flex;
+    /* padding-left: 12rem; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.instagram-image{
+    
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+
+.Righthome{
+    display: flex;
+    width:45%;
+    
+
+}
+.Righthome h2{
+    display: flex;
+    width: 465px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 9rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 38px;
+    font-style:italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10.95px;
+}
+
+.Righthome p{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 10rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.drag-drop-rectangle {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(39, 39, 39);
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 10rem;
+    color: white;
+    border-radius: 2rem;
+  }
+  
+  .upload-container {
+    text-align: center;
+  }
+  
+  .upload-icon {
+    margin-bottom: 1px;
+  }
+  
+  .dragging {
+    border-color: #47b4af;
+    background-color: #f0f8ff; /* Change background color when dragging */
+  }
+
+  
+  .upload-container {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  
+ 
+  .upload-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #47b4af;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .preview-image {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+
+  .close-button {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    font-size: 20px;
+    color: #ff0000; /* Red color for the cross button */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+  }
+
+  .copy-container {
+    position: relative;
+    top: 10rem;
+    left:-26rem;
+  }
+  
+  .copy-symbol {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    font-size: 20px;
+    color: #ffffff; /* Blue color for the copy symbol */
+    cursor: pointer;
+  }
+
+  .icon-upload{
+    margin-top: 5rem;
+    height: 15rem;
+    
+  }
+
+  .upload-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  

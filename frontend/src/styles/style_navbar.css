@@ -1,0 +1,50 @@
+
+.logo{
+    height: 8rem;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    height:3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0f0525;
+    z-index: 2;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    
+}
+
+.nav-item{
+    display: flex;
+    height: 100%;    
+    align-items: center;
+    
+}
+
+.nav-link{
+    font-family:monospace;
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1.75rem;
+    border-color: whitesmoke;
+    transition: color .3s ease-in-out ;
+    /* TEMP COLOR */
+    /* padding: 5px 10px; */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+
+.nav-link:hover{
+    color:aquamarine;
+    border-bottom: none;
+}
