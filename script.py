@@ -60,7 +60,7 @@ def predict_caption(model, image, tokenizer, max_length):
     return in_text
 
 
-def generate_caption(image):
+def generate_caption(image,prompt):
     
     #image = load_img(image_path, target_size=(224, 224))
 
@@ -74,7 +74,7 @@ def generate_caption(image):
     # predict from the trained model
     pre=predict_caption(model, feature, tokenizer, max_length)
     pre=' '.join(pre.split()[1:-1])
-    gen_caps=gen_chain(pre)
+    gen_caps=gen_chain(pre,prompt)
     return pre, gen_caps
 
 
