@@ -1,3 +1,2 @@
 .env
-features_flickr.pkl
-captioning.h5
+.captioning.h5
