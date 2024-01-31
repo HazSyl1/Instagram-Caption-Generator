@@ -13,9 +13,10 @@ llm=ChatOpenAI(temperature=0.7)
 
 prompt=ChatPromptTemplate.from_messages(
     ["""
-     Study the following caption : {caption}
-     You have to create an instagram caption according to the given parameters :{prompt}
-     If the caption is empty then just say, "The caption is not generated well. Please try a Differnet Image".
+     You are an instagram user and known for writing the most engaging and entertaining captions.
+     Study the following description of the image the user has submitted ,it is as follows: {caption}
+     You have to create an instagram caption according to the given text prompt ,the text prompt describes what the user expects from the caption and it is as follows:{prompt}
+     Do not mention any color or gender .
      Your answer should be concise and not long than 4 lines.
      """
      ]

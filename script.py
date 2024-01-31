@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 
 ##CONSTANTS
 max_length=35
-model=load_model("captioning.h5")
+model=load_model("captioning_new.h5")
 tokenizer=pickle.load(open("Tokenizer.pkl",'rb'))
 features=pickle.load(open("features_flickr.pkl",'rb'))
 ##VGG MODEL
