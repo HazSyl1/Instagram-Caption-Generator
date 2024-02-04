@@ -193,7 +193,7 @@ const Homepage = () => {
                         </span>
                     <p>Drag & Drop your image here</p>
                     <label htmlFor="fileInput" className="upload-button">
-                    Upload Logo
+                    Upload Image
                     </label>
                     <input
                     type="file"
@@ -215,7 +215,7 @@ const Homepage = () => {
             <button  onClick={handleClick}>Generate!</button>
             
             </div>
-            {description && <p className='des'>Detected in Image: {description} </p>}
+            {/* {description && <p className='des'>Detected in Image: {description} </p>} */}
             </div>
             <div className='Righthome'>
                 {!isLoaded && !click && <h2 >Express Yourself with Beautiful Caption</h2>}
